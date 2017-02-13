@@ -1,7 +1,9 @@
+# Class files
 *.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Eclipse Files
+.settings/
+.metadata
 
 # Package Files #
 *.jar
