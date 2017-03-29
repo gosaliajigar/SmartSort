@@ -1,0 +1,6 @@
+jgosalia$ time cat 20170303122832/part-i-00*.txt > input.csv
+
+real	0m31.637s
+user	0m0.500s
+sys	0m15.287s
+

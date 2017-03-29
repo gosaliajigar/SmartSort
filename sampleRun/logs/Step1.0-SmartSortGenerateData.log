@@ -1,0 +1,36 @@
+jgosalia$ time hadoop jar SmartSort/target/SmartSort.jar edu.itu.csc.generate.SmartSortGenerateData -input /Users/jgosalia/hadoopCourse/SmartSort/resources/first.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/last.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/street.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/city.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/state.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/zipcode.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/ipaddress.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/cc.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/cctype.txt -output /Users/jgosalia/hadoopCourse/$(date +%Y%m%d%H%M%S) -delimiter ,
+
+=======================================================
+
+========= Displaying Input Arguments ==================
+
+=======================================================
+
+	 delimiter            : , 	
+	 input                : /Users/jgosalia/hadoopCourse/SmartSort/resources/first.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/last.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/street.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/city.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/state.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/zipcode.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/ipaddress.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/cc.txt,/Users/jgosalia/hadoopCourse/SmartSort/resources/cctype.txt 	
+	 splits               : 103 	
+	 output               : /Users/jgosalia/hadoopCourse/20170303122832 	
+
+=======================================================
+
+
+=======================================================
+
+========= Displaying Data Statistics ==================
+
+=======================================================
+
+	 input details        : first.txt;200;last.txt;247;street.txt;500;city.txt;500;state.txt;46;zipcode.txt;214;ipaddress.txt;500;cc.txt;500;cctype.txt;16; 	
+	 calculated records   : 486293600000000000000 	
+	 fields / record      : 9 	
+	 total files          : 103 	
+	 total records        : 113394703 	
+	 total space          : 10300.00 MB (10.06 GB) 	
+
+=======================================================
+
+
+real	8m23.302s
+user	12m54.440s
+sys	0m11.492s
+

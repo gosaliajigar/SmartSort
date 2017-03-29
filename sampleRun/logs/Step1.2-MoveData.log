@@ -1,0 +1,6 @@
+jgosalia$ time hdfs dfs -put input.csv /user/jgosalia/datasets/.
+17/03/03 12:57:13 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+
+real	0m38.017s
+user	0m25.947s
+sys	0m12.856s
