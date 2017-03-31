@@ -1,16 +1,14 @@
 ## About ##
-------------------
 As part of CSC 550 Big Data Course, SmartSort was developed to demonstrate Secondary Sort design pattern using MapReduce for final term project.
 
+
 ## Introduction ##
-------------------
   - SmartSort is an implementation of Secondary Sort design pattern in MapReduce/Hadoop.
   - A secondary sort relates to sorting values associated with a key in the reduce phase. It is sometimes called as value-to-key conversion. 
   - The secondary sorting technique will enable us to sort the values (in ascending or descending order) passed to each reducer.
 
 
 ## Summary ##
--------------
 SmartSort has 4 steps ...
   1. Generate Data : 
       - Reads individual field seed data files
@@ -27,51 +25,44 @@ Here we are using input seed data to generate random delimiter separated data (1
 
 
 ## Workflow ##
---------------
+![workflow](https://cloud.githubusercontent.com/assets/5839686/24533223/0ddab106-157b-11e7-97d0-384856e5277f.jpeg)
 
 
 ## Sort Combinations ##
------------------------
-
+![combinations](https://cloud.githubusercontent.com/assets/5839686/24533208/f649d102-157a-11e7-915d-11cbf6a640a8.png)
 
 
 ## Configuration ##
--------------------
   - Single Node Configuration can be found under SmartSort/sampleRun/configurations/
 
 
 ## Input Seed Data ##
---------------------------------------
   - Seed Data can be found at SmartSort/resources/
 
 
 ## Dependencies ##
-------------------
 - commons-io-2.4.jar
 - hadoop-core-1.2.1.jar
 
 
 ## Usage ##
-------------------------
+![usage](https://cloud.githubusercontent.com/assets/5839686/24533304/b73147b0-157b-11e7-8687-7019ba37273f.jpg)
 
 
 ## Sample Run ##
-------------------------
   - Sample Logs can be found under SmartSort/sampleRun/logs/
 
 
 ## Performance & Analysis ##
-----------------------------
 Screenshots for the period each step was running ...
 
 | STEP       | STATS |
 | ------------- | ------------- |
-| Generate Data |  |
-| Pre Validation |  |
-| Sort |  |
-| Post Validation |  |
+| Generate Data | ![generatedata](https://cloud.githubusercontent.com/assets/5839686/24533190/d9ed482c-157a-11e7-829e-dcdbfb2d542f.jpg) |
+| Pre Validation | ![prevalidation](https://cloud.githubusercontent.com/assets/5839686/24533238/31cbebde-157b-11e7-8a58-b2f5a38a4479.jpg) |
+| Sort | ![sort](https://cloud.githubusercontent.com/assets/5839686/24533250/4240ea1e-157b-11e7-98b8-94021c279b87.jpg) |
+| Post Validation | ![postvalidation](https://cloud.githubusercontent.com/assets/5839686/24533259/5b3ff85c-157b-11e7-8da6-02c657287d2f.jpg) |
 
 
 ## DISCLAIMER ##
-------------------
 Any resemblance of seed data (first name, last name, street, state, city, zipcode, ipaddress, phone, credit-card, card-type) and random generated data from these seed data to real persons, living or dead, is purely coincidental.
