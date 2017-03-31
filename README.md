@@ -46,6 +46,8 @@ Here we are using input seed data to generate random delimiter separated data (1
 
 
 ## Usage ##
+SmartSort.jar is available under target/SmartSort.jar or can be generated from the code.
+
 ![usage](https://cloud.githubusercontent.com/assets/5839686/24533304/b73147b0-157b-11e7-8687-7019ba37273f.jpg)
 
 
