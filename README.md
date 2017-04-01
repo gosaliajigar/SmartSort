@@ -58,7 +58,7 @@ SmartSort.jar is available under target/SmartSort.jar or can be generated from t
 ## Performance & Analysis ##
 Screenshots for the period each step was running ...
 
-| STEP       | STATS |
+| EXECUTION STEP | CPU STATS |
 | ------------- | ------------- |
 | Generate Data | ![generatedata](https://cloud.githubusercontent.com/assets/5839686/24533190/d9ed482c-157a-11e7-829e-dcdbfb2d542f.jpg) |
 | Pre Validation | ![prevalidation](https://cloud.githubusercontent.com/assets/5839686/24533238/31cbebde-157b-11e7-8a58-b2f5a38a4479.jpg) |
