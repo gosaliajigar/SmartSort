@@ -32,6 +32,10 @@ Here we are using input seed data to generate random delimiter separated data (1
 ![combinations](https://cloud.githubusercontent.com/assets/5839686/24533208/f649d102-157a-11e7-915d-11cbf6a640a8.png)
 
 
+## Code Structure ##
+<img width="907" alt="packageexplorer" src="https://cloud.githubusercontent.com/assets/5839686/24580175/5b1d1682-16b8-11e7-85e3-6c5effb7fe8b.png">
+
+
 ## Configuration ##
   - Single Node Configuration can be found under SmartSort/sampleRun/configurations/
 
